@@ -1,8 +1,8 @@
 <?php
 
 /*
-using cron tab I am calling on the url every 10 mintues for instance: http://localhost:8888/property-brands/index.php?city=neworleans
-* /10 * * * * http://localhost:8888/property-brands/index.php?city=knoxville
+using cron tab I am calling on the url every 10 mintues for instance: http://localhost:8888/p-b/index.php?city=neworleans
+* /10 * * * * http://localhost:8888/p-b/index.php?city=knoxville
 for the purpose of this exercise this could also be done with a sleep command, but I didn't want the code to always be running
 */
 
