@@ -12,6 +12,7 @@ if ($conn->connect_error) {
 }
 
 // really an old school way to do this, but honestly I really enjoyed it :)
+
 $sql = "CREATE TABLE WeatherData (
   id INT(10) AUTO_INCREMENT PRIMARY KEY,
   API_Response INT(10) NOT NULL,
